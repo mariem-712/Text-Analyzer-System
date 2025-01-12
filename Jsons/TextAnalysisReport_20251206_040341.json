@@ -1,0 +1,58 @@
+{
+  "FileName": "Manual Input",
+  "AnalysisDate": "2025-12-06T04:03:39.1673988+02:00",
+  "OriginalText": "Hello , How are You ?\ni\u0027m Fine Thank you.\nCan i kill Hossam shamarden ?\nYees",
+  "Statistics": {
+    "TotalWords": 14,
+    "TotalSentences": 4,
+    "TotalParagraphs": 1,
+    "AverageSentenceLength": 3.5,
+    "AverageWordLength": 4,
+    "ReadabilityScore": 100,
+    "TopWordFrequencies": [
+      {
+        "Item1": "you",
+        "Item2": 2
+      },
+      {
+        "Item1": "hello",
+        "Item2": 1
+      },
+      {
+        "Item1": "how",
+        "Item2": 1
+      },
+      {
+        "Item1": "are",
+        "Item2": 1
+      },
+      {
+        "Item1": "i\u0027m",
+        "Item2": 1
+      },
+      {
+        "Item1": "fine",
+        "Item2": 1
+      },
+      {
+        "Item1": "thank",
+        "Item2": 1
+      },
+      {
+        "Item1": "can",
+        "Item2": 1
+      },
+      {
+        "Item1": "i",
+        "Item2": 1
+      },
+      {
+        "Item1": "kill",
+        "Item2": 1
+      }
+    ],
+    "UniqueWords": 13,
+    "LongestWord": "shamarden",
+    "ShortestWord": "i"
+  }
+}

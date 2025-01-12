@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>net9.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Include="Models.fs" />
+    <Compile Include="InputHandler.fs" />
+    <Compile Include="Tokenizer.fs" />
+    <Compile Include="MetricsCalculator.fs" />
+    <Compile Include="FrequencyAnalyzer.fs" />
+    <Compile Include="StatisticsBuilder.fs" />
+    <Compile Include="FileIO.fs" />
+    <Compile Include="Display.fs" />
+    <Compile Include="App.fs" />
+    <Compile Include="Program.fs" />
+  </ItemGroup>
+
+</Project>
