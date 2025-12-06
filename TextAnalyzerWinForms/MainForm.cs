@@ -70,7 +70,7 @@ namespace TextAnalyzerWinForms
                 Font = new Font("Segoe UI", 24f, FontStyle.Bold),
                 ForeColor = Color.FromArgb(30, 41, 59),
                 AutoSize = true,
-                Location = new Point(30, 15)
+                Location = new Point(30, 1)
             };
             
             subtitleLabel = new Label
@@ -79,7 +79,7 @@ namespace TextAnalyzerWinForms
                 Font = new Font("Segoe UI", 10f),
                 ForeColor = Color.FromArgb(100, 116, 139),
                 AutoSize = true,
-                Location = new Point(30, 50)
+                Location = new Point(30,55 )
             };
             
             // Content Panel
@@ -292,9 +292,14 @@ namespace TextAnalyzerWinForms
             contentPanel.Controls.Add(rightPanel);
             contentPanel.Controls.Add(leftPanel);
             
-            // Footer - Position export button on the right
-            exportButton.Left = footerPanel.ClientSize.Width - exportButton.Width - 30;
             footerPanel.Controls.AddRange(new Control[] { statusLabel, exportButton });
+
+// Position AFTER adding to the footer so ClientSize is correct
+footerPanel.Resize += (s, e) =>
+{
+    exportButton.Left = footerPanel.ClientSize.Width - exportButton.Width - 30;
+};
+
             
             // Form
             this.Controls.Add(contentPanel);
@@ -635,15 +640,17 @@ namespace TextAnalyzerWinForms
                        "3. Or typing directly into the text box\n\n" +
                        "Then click 'Analyze Text' to see detailed statistics!",
                 Left = 20,
-                Top = 100,
+                Top = 110,
                 Width = statsPanel.Width - 40,
-                Height = 200,
-                Font = new Font("Segoe UI", 10.5f),
-                ForeColor = Color.FromArgb(100, 116, 139)
+                AutoSize = true,
+                Font = new Font("Segoe UI", 11f),
+                ForeColor = Color.FromArgb(71, 85, 105)
             };
-            
-            statsPanel.Controls.AddRange(new Control[] { welcome, instructions });
+
+            statsPanel.Controls.Add(welcome);
+            statsPanel.Controls.Add(instructions);
         }
+
         
         private void ClearAll()
         {
