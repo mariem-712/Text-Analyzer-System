@@ -1,0 +1,34 @@
+{
+  "FileName": "Manual Input",
+  "AnalysisDate": "2025-12-06T16:52:36.0831067+02:00",
+  "OriginalText": "hello iam using f#",
+  "Statistics": {
+    "TotalWords": 4,
+    "TotalSentences": 1,
+    "TotalParagraphs": 1,
+    "AverageSentenceLength": 4,
+    "AverageWordLength": 3.75,
+    "ReadabilityScore": 100,
+    "TopWordFrequencies": [
+      {
+        "Item1": "hello",
+        "Item2": 1
+      },
+      {
+        "Item1": "iam",
+        "Item2": 1
+      },
+      {
+        "Item1": "using",
+        "Item2": 1
+      },
+      {
+        "Item1": "f#",
+        "Item2": 1
+      }
+    ],
+    "UniqueWords": 4,
+    "LongestWord": "hello",
+    "ShortestWord": "f#"
+  }
+}
