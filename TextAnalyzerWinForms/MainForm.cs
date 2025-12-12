@@ -109,13 +109,16 @@ namespace TextAnalyzerWinForms
             
             inputTextBox = new TextBox
             {
+                Name = "inputTextBox", 
                 Dock = DockStyle.Fill,
                 Multiline = true,
                 ScrollBars = ScrollBars.Vertical,
                 Font = new Font("Consolas", 10f),
                 BorderStyle = BorderStyle.None,
                 BackColor = Color.FromArgb(248, 250, 252),
-                Padding = new Padding(10)
+                Padding = new Padding(10),
+                 
+                
             };
             
             inputControlsPanel = new Panel
@@ -127,6 +130,7 @@ namespace TextAnalyzerWinForms
             
             loadFileButton = new Button
             {
+                Name = "loadFileButton",
                 Text = "📁 Load File",
                 Width = 120,
                 Height = 38,
@@ -142,6 +146,7 @@ namespace TextAnalyzerWinForms
             
             pasteButton = new Button
             {
+                Name = "pasteButton",
                 Text = "📋 Paste",
                 Width = 100,
                 Height = 38,
@@ -174,6 +179,7 @@ namespace TextAnalyzerWinForms
             
             wordCountLabel = new Label
             {
+                Name = "wordCountLabel",
                 Text = "Words: 0",
                 Left = 10,
                 Top = 10,
@@ -184,6 +190,7 @@ namespace TextAnalyzerWinForms
             
             analyzeButton = new Button
             {
+                Name = "analyzeButton", 
                 Text = "✓ Analyze Text",
                 Width = 150,
                 Height = 45,
@@ -199,6 +206,7 @@ namespace TextAnalyzerWinForms
             
             clearButton = new Button
             {
+                Name = "clearButton",
                 Text = "✕ Clear",
                 Width = 100,
                 Height = 45,
@@ -231,6 +239,7 @@ namespace TextAnalyzerWinForms
             
             statsPanel = new Panel
             {
+                Name = "statsPanel",
                 Dock = DockStyle.Fill,
                 AutoScroll = true,
                 BackColor = Color.White
@@ -247,6 +256,7 @@ namespace TextAnalyzerWinForms
             
             statusLabel = new Label
             {
+                Name = "statusLabel", 
                 Text = "Ready to analyze text...",
                 AutoSize = true,
                 Left = 30,
@@ -257,6 +267,7 @@ namespace TextAnalyzerWinForms
             
             exportButton = new Button
             {
+                Name = "exportButton", 
                 Text = "💾 Export Results ▼",
                 Width = 180,
                 Height = 42,
