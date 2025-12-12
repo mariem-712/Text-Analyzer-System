@@ -10,7 +10,7 @@ open System.Reflection
 [<assembly: System.Reflection.AssemblyCompanyAttribute("TextAnalyzerApp")>]
 [<assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")>]
 [<assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")>]
-[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+51769a84d9bae574b8fb70c4a568c3127d2f7ff3")>]
+[<assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e07f77c2a77ff8e035b329f45b3a94087ddeb979")>]
 [<assembly: System.Reflection.AssemblyProductAttribute("TextAnalyzerApp")>]
 [<assembly: System.Reflection.AssemblyTitleAttribute("TextAnalyzerApp")>]
 [<assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")>]

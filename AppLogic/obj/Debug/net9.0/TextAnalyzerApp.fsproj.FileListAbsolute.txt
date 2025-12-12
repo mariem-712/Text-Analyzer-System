@@ -86,3 +86,33 @@ C:\Users\POP\Downloads\demo F#\Text-Analyzer-System\AppLogic\obj\Debug\net9.0\re
 C:\Users\POP\Downloads\demo F#\Text-Analyzer-System\AppLogic\obj\Debug\net9.0\TextAnalyzerApp.pdb
 C:\Users\POP\Downloads\demo F#\Text-Analyzer-System\AppLogic\obj\Debug\net9.0\TextAnalyzerApp.genruntimeconfig.cache
 C:\Users\POP\Downloads\demo F#\Text-Analyzer-System\AppLogic\obj\Debug\net9.0\ref\TextAnalyzerApp.dll
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\TextAnalyzerApp.exe
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\TextAnalyzerApp.deps.json
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\TextAnalyzerApp.runtimeconfig.json
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\TextAnalyzerApp.dll
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\TextAnalyzerApp.pdb
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\FSharp.Core.dll
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\cs\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\de\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\es\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\fr\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\it\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\ja\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\ko\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\pl\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\pt-BR\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\ru\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\tr\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\zh-Hans\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\AppLogic\bin\Debug\net9.0\zh-Hant\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\AppLogic\obj\Debug\net9.0\TextAnalyzerApp.fsproj.AssemblyReference.cache
+E:\TextAnalyzerApp\AppLogic\obj\Debug\net9.0\TextAnalyzerApp.AssemblyInfoInputs.cache
+E:\TextAnalyzerApp\AppLogic\obj\Debug\net9.0\TextAnalyzerApp.AssemblyInfo.fs
+E:\TextAnalyzerApp\AppLogic\obj\Debug\net9.0\TextAnalyzerApp.fsproj.CoreCompileInputs.cache
+E:\TextAnalyzerApp\AppLogic\obj\Debug\net9.0\TextAnalyzerApp.sourcelink.json
+E:\TextAnalyzerApp\AppLogic\obj\Debug\net9.0\TextAnal.3623E36F.Up2Date
+E:\TextAnalyzerApp\AppLogic\obj\Debug\net9.0\TextAnalyzerApp.dll
+E:\TextAnalyzerApp\AppLogic\obj\Debug\net9.0\refint\TextAnalyzerApp.dll
+E:\TextAnalyzerApp\AppLogic\obj\Debug\net9.0\TextAnalyzerApp.pdb
+E:\TextAnalyzerApp\AppLogic\obj\Debug\net9.0\TextAnalyzerApp.genruntimeconfig.cache
+E:\TextAnalyzerApp\AppLogic\obj\Debug\net9.0\ref\TextAnalyzerApp.dll

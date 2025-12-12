@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\POP\\Downloads\\demo F#\\Text-Analyzer-System\\AppLogic\\TextAnalyzerApp.fsproj": {}
+    "E:\\TextAnalyzerApp\\AppLogic\\TextAnalyzerApp.fsproj": {}
   },
   "projects": {
-    "C:\\Users\\POP\\Downloads\\demo F#\\Text-Analyzer-System\\AppLogic\\TextAnalyzerApp.fsproj": {
+    "E:\\TextAnalyzerApp\\AppLogic\\TextAnalyzerApp.fsproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\POP\\Downloads\\demo F#\\Text-Analyzer-System\\AppLogic\\TextAnalyzerApp.fsproj",
+        "projectUniqueName": "E:\\TextAnalyzerApp\\AppLogic\\TextAnalyzerApp.fsproj",
         "projectName": "TextAnalyzerApp",
-        "projectPath": "C:\\Users\\POP\\Downloads\\demo F#\\Text-Analyzer-System\\AppLogic\\TextAnalyzerApp.fsproj",
-        "packagesPath": "C:\\Users\\POP\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\POP\\Downloads\\demo F#\\Text-Analyzer-System\\AppLogic\\obj\\",
+        "projectPath": "E:\\TextAnalyzerApp\\AppLogic\\TextAnalyzerApp.fsproj",
+        "packagesPath": "C:\\Users\\DELL\\.nuget\\packages\\",
+        "outputPath": "E:\\TextAnalyzerApp\\AppLogic\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\POP\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\DELL\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -26,8 +26,7 @@
         ],
         "sources": {
           "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-          "C:\\Program Files\\dotnet\\library-packs": {},
-          "C:\\Program Files\\dotnet\\sdk\\9.0.308\\FSharp\\library-packs": {},
+          "C:\\Program Files\\dotnet\\sdk\\9.0.203\\FSharp\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -41,7 +40,7 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "9.0.300"
+        "SdkAnalysisLevel": "9.0.200"
       },
       "frameworks": {
         "net9.0": {
@@ -50,7 +49,7 @@
             "FSharp.Core": {
               "include": "Runtime, Compile, Build, Native, Analyzers, BuildTransitive",
               "target": "Package",
-              "version": "[9.0.303, )",
+              "version": "[9.0.202, )",
               "generatePathProperty": true
             }
           },
@@ -70,7 +69,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.203/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

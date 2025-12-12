@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "MR3hK38imKY=",
+  "dgSpecHash": "ak423bPBk44=",
   "success": true,
-  "projectFilePath": "C:\\Users\\POP\\Downloads\\demo F#\\Text-Analyzer-System\\AppLogic\\TextAnalyzerApp.fsproj",
+  "projectFilePath": "E:\\TextAnalyzerApp\\AppLogic\\TextAnalyzerApp.fsproj",
   "expectedPackageFiles": [
-    "C:\\Users\\POP\\.nuget\\packages\\fsharp.core\\9.0.303\\fsharp.core.9.0.303.nupkg.sha512"
+    "C:\\Users\\DELL\\.nuget\\packages\\fsharp.core\\9.0.202\\fsharp.core.9.0.202.nupkg.sha512"
   ],
   "logs": []
 }
