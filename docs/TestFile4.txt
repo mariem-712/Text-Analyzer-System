@@ -1,1 +1,0 @@
-In order to estimate the user’s comprehension level, the algorithm integrates multiple statistical models that examine vocabulary difficulty, syntactic depth, and semantic clarity.

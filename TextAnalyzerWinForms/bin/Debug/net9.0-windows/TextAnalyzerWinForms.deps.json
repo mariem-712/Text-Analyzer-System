@@ -14,11 +14,11 @@
           "TextAnalyzerWinForms.dll": {}
         }
       },
-      "FSharp.Core/9.0.303": {
+      "FSharp.Core/9.0.202": {
         "runtime": {
           "lib/netstandard2.1/FSharp.Core.dll": {
             "assemblyVersion": "9.0.0.0",
-            "fileVersion": "9.3.325.36101"
+            "fileVersion": "9.2.225.15402"
           }
         },
         "resources": {
@@ -65,7 +65,7 @@
       },
       "TextAnalyzerApp/1.0.0": {
         "dependencies": {
-          "FSharp.Core": "9.0.303"
+          "FSharp.Core": "9.0.202"
         },
         "runtime": {
           "TextAnalyzerApp.dll": {
@@ -82,12 +82,12 @@
       "serviceable": false,
       "sha512": ""
     },
-    "FSharp.Core/9.0.303": {
+    "FSharp.Core/9.0.202": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6JlV8aD8qQvcmfoe/PMOxCHXc0uX4lR23u0fAyQtnVQxYULLoTZgwgZHSnRcuUHOvS3wULFWcwdnP1iwslH60g==",
-      "path": "fsharp.core/9.0.303",
-      "hashPath": "fsharp.core.9.0.303.nupkg.sha512"
+      "sha512": "sha512-p8iGT2PeRL9q0ZIQ3ZhmRMRs4+b5Xaf9SSYKOt/+tDtznMQhHovYWaD1491RvBz8rnxcesAISbrkrjI1/4TUtw==",
+      "path": "fsharp.core/9.0.202",
+      "hashPath": "fsharp.core.9.0.202.nupkg.sha512"
     },
     "TextAnalyzerApp/1.0.0": {
       "type": "project",

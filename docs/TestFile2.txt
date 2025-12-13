@@ -1,1 +1,0 @@
-The system continuously analyzes the structure of each sentence to determine how complex the overall text is for an average reader.

@@ -138,8 +138,11 @@ let ``countUniqueWords should return correct count`` () =
 [<Fact>]
 let ``getTopN should return top words`` () =
     let words = ["a"; "a"; "a"; "b"; "b"; "c"]
-    let topWords = FrequencyAnalyzer.getTopN 2 words
+    let frequencies = FrequencyAnalyzer.calculateWordFrequency words
+    let topWords = FrequencyAnalyzer.getTopN 2 frequencies
     Assert.Equal(2, topWords |> List.length)
+    Assert.Equal("a", topWords.[0] |> fst)
+    Assert.Equal("b", topWords.[1] |> fst)
 
 
 // STATISTICS BUILDER TESTS

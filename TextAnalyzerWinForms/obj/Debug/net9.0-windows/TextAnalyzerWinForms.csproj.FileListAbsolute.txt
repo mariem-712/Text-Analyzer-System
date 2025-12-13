@@ -34,3 +34,39 @@ C:\Users\POP\Downloads\demo F#\Text-Analyzer-System\TextAnalyzerWinForms\obj\Deb
 C:\Users\POP\Downloads\demo F#\Text-Analyzer-System\TextAnalyzerWinForms\obj\Debug\net9.0-windows\TextAnalyzerWinForms.pdb
 C:\Users\POP\Downloads\demo F#\Text-Analyzer-System\TextAnalyzerWinForms\obj\Debug\net9.0-windows\TextAnalyzerWinForms.genruntimeconfig.cache
 C:\Users\POP\Downloads\demo F#\Text-Analyzer-System\TextAnalyzerWinForms\obj\Debug\net9.0-windows\ref\TextAnalyzerWinForms.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\TextAnalyzerApp.deps.json
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\TextAnalyzerApp.runtimeconfig.json
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\TextAnalyzerApp.exe
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\TextAnalyzerWinForms.exe
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\TextAnalyzerWinForms.deps.json
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\TextAnalyzerWinForms.runtimeconfig.json
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\TextAnalyzerWinForms.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\TextAnalyzerWinForms.pdb
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\FSharp.Core.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\cs\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\de\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\es\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\fr\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\it\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\ja\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\ko\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\pl\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\pt-BR\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\ru\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\tr\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\zh-Hans\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\zh-Hant\FSharp.Core.resources.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\TextAnalyzerApp.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\bin\Debug\net9.0-windows\TextAnalyzerApp.pdb
+E:\TextAnalyzerApp\TextAnalyzerWinForms\obj\Debug\net9.0-windows\TextAnalyzerWinForms.csproj.AssemblyReference.cache
+E:\TextAnalyzerApp\TextAnalyzerWinForms\obj\Debug\net9.0-windows\TextAnalyzerWinForms.GeneratedMSBuildEditorConfig.editorconfig
+E:\TextAnalyzerApp\TextAnalyzerWinForms\obj\Debug\net9.0-windows\TextAnalyzerWinForms.AssemblyInfoInputs.cache
+E:\TextAnalyzerApp\TextAnalyzerWinForms\obj\Debug\net9.0-windows\TextAnalyzerWinForms.AssemblyInfo.cs
+E:\TextAnalyzerApp\TextAnalyzerWinForms\obj\Debug\net9.0-windows\TextAnalyzerWinForms.csproj.CoreCompileInputs.cache
+E:\TextAnalyzerApp\TextAnalyzerWinForms\obj\Debug\net9.0-windows\TextAnalyzerWinForms.sourcelink.json
+E:\TextAnalyzerApp\TextAnalyzerWinForms\obj\Debug\net9.0-windows\TextAnal.3D2CEB76.Up2Date
+E:\TextAnalyzerApp\TextAnalyzerWinForms\obj\Debug\net9.0-windows\TextAnalyzerWinForms.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\obj\Debug\net9.0-windows\refint\TextAnalyzerWinForms.dll
+E:\TextAnalyzerApp\TextAnalyzerWinForms\obj\Debug\net9.0-windows\TextAnalyzerWinForms.pdb
+E:\TextAnalyzerApp\TextAnalyzerWinForms\obj\Debug\net9.0-windows\TextAnalyzerWinForms.genruntimeconfig.cache
+E:\TextAnalyzerApp\TextAnalyzerWinForms\obj\Debug\net9.0-windows\ref\TextAnalyzerWinForms.dll
