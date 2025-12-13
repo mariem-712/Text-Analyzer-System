@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("TextAnalyzerWinForms")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2884dc51ff102522f3b7b2041d3d595070de41b7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e4d6fd67924ef9cb55d6bedb9fac8aff3dda7a6b")]
 [assembly: System.Reflection.AssemblyProductAttribute("TextAnalyzerWinForms")]
 [assembly: System.Reflection.AssemblyTitleAttribute("TextAnalyzerWinForms")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

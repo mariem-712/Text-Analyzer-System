@@ -17,12 +17,20 @@ let loadFromFile (filePath: string) =
     | ex -> Error $"Error reading file: {ex.Message}"
 
 let validateText (text: string) =
-    if String.IsNullOrWhiteSpace(text) then
+    let lines = text.Split([|"\n"; "\r\n"|], StringSplitOptions.None)
+                |> Array.toList
+                |> List.skipWhile (fun l -> String.IsNullOrWhiteSpace(l))
+                |> List.rev
+                |> List.skipWhile (fun l -> String.IsNullOrWhiteSpace(l))
+                |> List.rev
+    let trimmedText = String.concat "\n" lines
+    let charCount = trimmedText.Replace("\n","").Replace("\r","").Replace(" ","").Length
+    if charCount = 0 then
         Error "Text cannot be empty"
-    elif text.Length < 10 then
+    elif charCount < 10 then
         Error "Text is too short (minimum 10 characters)"
     else
-        Ok text
+        Ok trimmedText
 
 let getUserInput () =
     printfn "\n=== TEXT INPUT ==="
