@@ -11,7 +11,6 @@ open Models
 
 // INPUT HANDLER TESTS
 
-
 [<Fact>]
 let ``validateText should reject empty text`` () =
     let result = InputHandler.validateText ""
@@ -34,21 +33,24 @@ let ``validateText should accept valid text`` () =
     | Error _ -> Assert.True(false, "Expected Ok but got Error")
 
 [<Fact>]
-let ``validateText should trim whitespace`` () =
+let ``validateText should accept words whitespace`` () =
     let result = InputHandler.validateText "  Hello world  "
     match result with
     | Ok text -> 
-        // The validator might not trim, so let's just check it returns Ok
         Assert.NotEmpty(text)
     | Error _ -> Assert.True(false, "Expected Ok but got Error")
 
 
 // TOKENIZER TESTS
-
-
 [<Fact>]
 let ``tokenize should split text into paragraphs`` () =
     let text = "First paragraph.\n\nSecond paragraph."
+    let (paragraphs, _, _) = Tokenizer.tokenize text
+    Assert.Equal(2, paragraphs |> List.length)
+
+[<Fact>]
+let ``tokenize should handle text with multiple line breaks`` () =
+    let text = "Paragraph 1\n\n\n\nParagraph 2"
     let (paragraphs, _, _) = Tokenizer.tokenize text
     Assert.Equal(2, paragraphs |> List.length)
 
@@ -78,10 +80,14 @@ let ``tokenize should remove punctuation from words`` () =
     Assert.DoesNotContain(",", words)
     Assert.DoesNotContain("!", words)
 
+[<Fact>]
+let ``tokenize should handle text with mixed punctuation`` () =
+    let text = "Hello... World!!! How are you???"
+    let (_, sentences, _) = Tokenizer.tokenize text
+    Assert.True(sentences |> List.length > 0)
+
 
 // METRICS CALCULATOR TESTS
-
-
 [<Fact>]
 let ``calculateAverageWordLength should return correct average`` () =
     let words = ["cat"; "dog"; "bird"]
@@ -114,10 +120,15 @@ let ``calculateReadabilityScore should return score between 0 and 100`` () =
     let score = MetricsCalculator.calculateReadabilityScore words sentences
     Assert.True(score >= 0.0 && score <= 100.0)
 
+[<Fact>]
+let ``calculateReadabilityScore should handle very short text`` () =
+    let words = ["hi"]
+    let sentences = ["Hi"]
+    let score = MetricsCalculator.calculateReadabilityScore words sentences
+    Assert.True(score >= 0.0)
+
 
 // FREQUENCY ANALYZER TESTS
-
-
 [<Fact>]
 let ``countUniqueWords should return correct count`` () =
     let words = ["cat"; "dog"; "cat"; "bird"]
@@ -132,7 +143,6 @@ let ``getTopN should return top words`` () =
 
 
 // STATISTICS BUILDER TESTS
-
 
 [<Fact>]
 let ``buildStatistics should create complete statistics`` () =
@@ -161,22 +171,6 @@ let ``buildStatistics should handle single word`` () =
     Assert.Equal("hello", stats.LongestWord)
     Assert.Equal("hello", stats.ShortestWord)
 
-
-// EDGE CASE TESTS
-
-
-[<Fact>]
-let ``tokenize should handle text with multiple line breaks`` () =
-    let text = "Paragraph 1\n\n\n\nParagraph 2"
-    let (paragraphs, _, _) = Tokenizer.tokenize text
-    Assert.Equal(2, paragraphs |> List.length)
-
-[<Fact>]
-let ``tokenize should handle text with mixed punctuation`` () =
-    let text = "Hello... World!!! How are you???"
-    let (_, sentences, _) = Tokenizer.tokenize text
-    Assert.True(sentences |> List.length > 0)
-
 [<Fact>]
 let ``buildStatistics should handle text with numbers`` () =
     let text = "There are 123 items and 456 more."
@@ -184,16 +178,9 @@ let ``buildStatistics should handle text with numbers`` () =
     let stats = StatisticsBuilder.buildStatistics paragraphs sentences words
     Assert.True(stats.TotalWords > 0)
 
-[<Fact>]
-let ``calculateReadabilityScore should handle very short text`` () =
-    let words = ["hi"]
-    let sentences = ["Hi"]
-    let score = MetricsCalculator.calculateReadabilityScore words sentences
-    Assert.True(score >= 0.0)
 
 
 // INTEGRATION TESTS
-
 
 [<Fact>]
 let ``Full pipeline should process sample text correctly`` () =
@@ -204,7 +191,6 @@ let ``Full pipeline should process sample text correctly`` () =
         let (paragraphs, sentences, words) = Tokenizer.tokenize validText
         let stats = StatisticsBuilder.buildStatistics paragraphs sentences words
         
-        // The actual word count is 14 (some words like "the" appear twice but are filtered)
         Assert.Equal(14, stats.TotalWords)
         Assert.Equal(2, stats.TotalSentences)
         Assert.Equal(1, stats.TotalParagraphs)
