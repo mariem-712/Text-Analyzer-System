@@ -63,3 +63,5 @@ Help writers, students, and professionals understand their text complexity and i
 
 8. **Documenter & GitHub Manager** — *(Mariem&Menna)*  
    Responsible for documentation, diagrams, and managing commits and repositories.
+   Team members:
+   Mostafa Mahmoud
