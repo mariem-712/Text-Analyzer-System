@@ -52,7 +52,7 @@ Help writers, students, and professionals understand their text complexity and i
 4. **Frequency Analyzer** — *(Youssef)*  
    Generates ordered frequency tables for words and tokens.
 
-5. **File I/O Developer** — *(Moataz Mamdoh)*  
+5. **File I/O Developer** — *(Moataz Mamdouh)*  
    Handles JSON export and structured saving of analysis results.
 
 6. **UI Developer** — *(Menna khalifa)*  
